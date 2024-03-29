@@ -1,0 +1,134 @@
+{
+  // Fonts
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.lineHeight": 1.8,
+  "editor.fontLigatures": true,
+
+  // Appearence
+  "window.zoomLevel": 0.7,
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Min Dark",
+  "symbols.hidesExplorerArrows": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+  "workbench.layoutControl.enabled": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, .prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env": ".env*"
+  },
+  "workbench.productIconTheme": "productIconThemes",
+  "editor.stickyScroll.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.cursorStyle": "block-outline",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "phase",
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.fastScrollSensitivity": 3,
+  "editor.rulers": [120],
+  "editor.minimap.size": "fill",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "editor.roundedSelection": true,
+  "diffEditor.codeLens": true,
+  "workbench.tips.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  "window.title": "${appName}",
+  "accessibility.dimUnfocused.enabled": true,
+  "accessibility.dimUnfocused.opacity": 0.5,
+  "search.defaultViewMode": "tree",
+  "terminal.integrated.stickyScroll.enabled": true,
+
+  // Logic
+  "workbench.startupEditor": "newUntitledFile",
+  "security.workspace.trust.startupPrompt": "never",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+  "security.workspace.trust.untrustedFiles": "open",
+  "extensions.ignoreRecommendations": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.gpuAcceleration": "off",
+  "update.showReleaseNotes": false,
+  "security.promptForLocalFileProtocolHandling": false,
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "editor.linkedEditing": true,
+  "files.eol": "\r\n",
+  "files.autoSaveWhenNoErrors": true,
+  "search.smartCase": true,
+
+  // Javascript
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+
+  // Typescript
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.autoImports": true,
+
+  // Debbuger
+  "debug.console.fontFamily": "JetBrainsMono Nerd Font",
+  "debug.console.fontSize": 14,
+  "debug.javascript.autoAttachFilter": "smart",
+
+  // Git
+  "git.mergeEditor": true,
+  "github.gitProtocol": "ssh",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.defaultBranchName": "main",
+
+  // Telemetry
+  "telemetry.telemetryLevel": "off",
+
+  // Formatting
+  "eslint.run": "onSave",
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "[css]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  // Extensions
+  "codesnap.shutterAction": "copy"
+}
